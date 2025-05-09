@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: register-app
-          image: cary01/registerapp:1.0.0-4
+          image: cary01/registerapp:
           resources:
             limits:
               memory: "256Mi"
